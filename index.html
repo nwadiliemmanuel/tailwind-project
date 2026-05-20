@@ -214,7 +214,7 @@
 
       <!-- About section -->
       <section class="bg-dark-blue w-full py-16">
-        <div class=" w-9/10 mx-auto max-w-7xl flex flex-col md:flex-row items-center gap-8 ">
+        <div class=" w-9/10 mx-auto max-w-7xl flex flex-col md:flex-row items-center gap-8  ">
 
         <div class=" w-full md:w-1/2  min-h-80 ">
             <img src="./images/about-image.png" alt="Workers in a office" class="w-full h-full object-cover aspect-4/3 rounded-2xl">
@@ -246,7 +246,52 @@
         </article>
 
          </div>
-   
+      </section>
+
+      <!-- Contact section -->
+
+      <section class="bg-dark-blue/95 py-16 flex flex-col gap-8 2xl:gap-10 ">
+        <div>
+            <div class="flex flex-col gap-2 items-center  ">  
+                <h3 class="text-white text-4xl font-bold">Get In Touch </h3>
+                <p class="text-white w-9/10 max-w-120 "> Ready to start your project? Let`s discuss how we can help your discuss goals.</p>
+            </div>
+            <div class="  grid grid-cols-1 gap-3 border  rounded-2x w-ful  py-8 px-4 w-9/10 max-w-3xl mx-auto rounded-3xl bg-blue-shade/60 mt-5 lg:grid-cols-2 ">
+                <div class="text-white flex flex-col gap-3">
+                <p> <i class="fa-solid fa-envelope  text-light-blue"></i>hello@nexus.com</p>
+                <p> <i class="fa-solid fa-phone text-light-blue"></i>+1 (555) 123-4567</p>
+                <p><i class="fa-solid fa-location-dot text-light-blue"></i>123 Business Ave, Tech City</p>
+            </div>
+            <form class="grid grid-cols-1">
+                <div class="flex flex-col gap-3">
+                    <!-- name -->
+                    <div>
+                        <label for="name"> </label>
+                        <input type="text" placeholder="Your Name" id="fullname" class=" border px-6 py-2 self-start bg-dark-blue/95 text-white/50 rounded-xl outline-0 focus:border-light-blue ">
+                    </div>
+                    <!-- email -->
+                     <div>
+                        <label for="email"></label>
+                        <input type="email" placeholder="Your Email" id="email" class=" border px-6 py-2 self-start bg-dark-blue/95 text-white/50  rounded-xl outline-0 focus:border-light-blue">
+                     </div>
+
+                     <!-- Message -->
+                      <div>
+                        <label for="message"></label>
+                        <textarea name="" id="message" placeholder="Your Message" class=" border bg-dark-blue/95 h-20  w-9/10 text-white/50 rounded-xl py-3 outline-0 focus:border-light-blue "></textarea>
+                      </div>
+                      <button class="self-start text-white bg-light-blue px-20 py-3 rounded-xl  hoverg:bg-green transition-3s ">Send Message</button>
+
+                </div>
+                    
+                      >
+                </div>
+
+            </form>
+            </div>
+            
+        </div>
+
       </section>
     </main>
   </body>
